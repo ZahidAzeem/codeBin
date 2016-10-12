@@ -1,0 +1,31 @@
+//23:10 2016-10-11
+
+using System;
+
+namespace ConsoleApp
+{
+    public class PolygonCalculator
+    {
+        public double area;
+        public void Square(double length)
+        {
+            area = length * length;
+        }
+
+        public void Triangle(double length)
+        {   //given formula
+            area = length * length * Math.Sqrt(3) / 4;
+        }
+
+        public void Pentagon(double length)
+        {
+            // this formula will calculate area by entering length of side
+            /*            double sq = Math.Sqrt(5);
+                        sq = 5 + 2 * sq;
+                        sq = Math.Sqrt(sq * 5);
+                        area = sq / 4 * length * length;
+                        */
+            area = ((Math.Sqrt(5 * (5 + 2 * Math.Sqrt(5)))) / 4) * length * length;
+        }
+    }
+}
