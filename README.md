@@ -1,5 +1,9 @@
 # codeBin
-small Code projects using HTML, CSS and javaScript
+C# code 
 
-in this project you will see the code of content slider for a responsive website. 
+- Generics
+- Delegate
+- Event
+- Lambda Expression
+- 
 
