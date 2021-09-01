@@ -5,5 +5,6 @@ C# code
 - Delegate
 - Event
 - Lambda Expression
+- Patterns (C# reference)
 - 
 
