@@ -6,5 +6,5 @@ C# code
 - Event
 - Lambda Expression
 - Patterns (C# reference)
-- 
+- Decoupling application logic and handling events
 
