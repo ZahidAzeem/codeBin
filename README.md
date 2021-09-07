@@ -9,5 +9,7 @@ C# code
 - Decoupling application logic and handling events (20)
 - LINQ -> Querying in-memory data by using query expressions (21)
 - Operator Overloading(advance) 22
+- Improving throughput by using tasks
+- 
 
 
