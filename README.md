@@ -13,6 +13,7 @@
 
 **Building universal windows platfrom applications using C#**
 - Improving throughput by using tasks
+- Improving response time by performing asynchronous operations - 24
 - 
 
 
