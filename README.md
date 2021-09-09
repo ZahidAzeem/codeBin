@@ -1,8 +1,5 @@
-# codeBin 
+# C# codeBin 
 *A Quick review*
-
-C# code 
-
 - Generics
 - Delegate
 - Event
@@ -14,7 +11,7 @@ C# code
 - LINQ -> Querying in-memory data by using query expressions (21)
 - Operator Overloading(advance) 22
 
-***Building universal windows platfrom applications using C#***
+**Building universal windows platfrom applications using C#**
 - Improving throughput by using tasks
 - 
 
