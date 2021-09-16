@@ -16,5 +16,6 @@
 - Improving response time by performing asynchronous operations - 24
 - Implementing the user interface för a universal Windows platform app
 - Depth required in this topic
+- Topics revision on going
 
 
