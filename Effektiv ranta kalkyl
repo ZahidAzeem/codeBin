@@ -1,0 +1,26 @@
+HTML file
+<b>effektiv ranta FUNCTION</b>
+<input type=button onClick="effektivRanta()" value="Generate Effektiv ranta">
+
+javaScript file
+
+// effektiv ränta  
+function effektivRanta(){
+ // Note: dbmonth and dinRanta have to change as per the selected period and interest rate
+
+var dbmonth = 120;
+var dinRanta = 4.25;
+var ranta = dinRanta/100;
+var months = dbmonth;
+var exponent = dbmonth;
+var baser = (1 + (ranta/months));
+
+function calculatePower(baser, exponent) {
+  return Math.pow(baser, exponent);
+}
+
+var EAR =  ((calculatePower(baser, exponent) - 1) * 100); 
+alert(EAR);
+}
+// effektiv ränta 
+</script>
